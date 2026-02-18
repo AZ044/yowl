@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #9816b6;
+ width: 100%;
+ height: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1,h2,h3{
+  color: #9816b6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home_card{
+  border: 3px solid #9816b6;
+  width: 100%; 
+  text-align: left;
+}
+.home{
+ display: grid;
+ grid-template-columns:50% 50%;
+ gap: 20px;
+ margin: 70px;
+}
+
+#home_card{
+  text-align: left;
+  opacity: 0.3px;
+  border: 1px solid rgba(128, 128, 128, 0.378);
+  background-color: rgba(128, 128, 128, 0.233);
+  margin: 70px;
+  padding: 5px;
+}
+#Rules{
+  text-align: left;
+  background-color: rgba(248, 147, 5, 0.237);
+  margin: 70px;
+}
+
+#test{
+  height: 30px;
+  width: 30px;
+  color: red;
+  font-size:x-large;
+}
+
+.Button{
+  background-color: #7a258db8;
+  border:solid 3px #d000ff;
+  width: 150px;
+  height: 30px; 
+  
+}
+
+.Button:active{
+  background-color: #7a258db8;
+}
+
+.Modal{
+  border: 3px solid #d102ff;
+}
+
+.ant-btn-primary {
+  background-color: #d000ffbb;
+ 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#log_out{
+  background-color: rgb(213, 17, 17); 
+  left: 45%;  
+  top: 30px;
+}
+
+#login{
+  left: 45%;  
+  top: 30px;
+}
